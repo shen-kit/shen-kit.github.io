@@ -9,6 +9,9 @@ export default function Layout(props: any) {
   const homeSection = document.getElementById("home-section");
   const aboutSection = document.getElementById("about-section");
   const achievementsSection = document.getElementById("achievements-section");
+  const workExperienceSection = document.getElementById(
+    "work-experience-section",
+  );
   const projectsSection = document.getElementById("projects-section");
 
   return (
@@ -44,9 +47,15 @@ export default function Layout(props: any) {
             >
               Achievements
             </Anchor>
-            {/*<Anchor className={classes.navLink} underline="never">
+            <Anchor
+              className={classes.navLink}
+              underline="never"
+              onClick={() =>
+                workExperienceSection?.scrollIntoView({ behavior: "smooth" })
+              }
+            >
               Experience
-            </Anchor>*/}
+            </Anchor>
             <Anchor
               className={classes.navLink}
               underline="never"

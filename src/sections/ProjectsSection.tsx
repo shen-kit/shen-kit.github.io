@@ -66,9 +66,10 @@ export default function ProjectsSection() {
       align="start"
       gap="xl"
       mih="100vh"
+      pt="4rem"
       id="projects-section"
     >
-      <SectionHeader number="2" text="Projects" />
+      <SectionHeader number="3" text="Projects" />
       <Project
         name="TUI Finance Tracker"
         year="2025"

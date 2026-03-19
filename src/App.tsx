@@ -6,6 +6,7 @@ import HomeSection from "./sections/HomeSection.tsx";
 import Layout from "./Layout";
 import AboutSection from "./sections/AboutSection.tsx";
 import AchievementsSection from "./sections/AchievementsSection.tsx";
+import WorkExperienceSection from "./sections/WorkExperienceSection.tsx";
 import ProjectsSection from "./sections/ProjectsSection.tsx";
 
 const theme = createTheme({
@@ -55,6 +56,7 @@ export default function App() {
           <HomeSection />
           <AboutSection />
           <AchievementsSection />
+          <WorkExperienceSection />
           <ProjectsSection />
         </Stack>
       </Layout>
